@@ -1,7 +1,20 @@
-bin/
+# Go build files
 *.exe
-*.out
-*.log
-coverage.*
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Dependency directories (vendor)
 vendor/
-**/.DS_Store
+
+# Go workspace file
+go.work
+go.work.sum
+
+# SQLite database
+*.db
+
+# VS Code config
+.vscode/
