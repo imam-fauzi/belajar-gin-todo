@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-func tambah(a, b int) int { return a + b }
-func kurang(a, b int) int { return a - b }
-
 func main() {
-	fmt.Println(tambah(2, 5))
-	fmt.Println(kurang(8, 3))
+	for r := 1; r <= 5; r++ {
+		for c := 1; c <= r; c++ {
+			fmt.Print("*")
+		}
+		fmt.Println()
+	}
+
 }
